@@ -1,0 +1,25 @@
+{
+  "name": "alexpaniago",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paniago/alexpaniago.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paniago/alexpaniago/issues"
+  },
+  "homepage": "https://github.com/paniago/alexpaniago#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.5.4",
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
