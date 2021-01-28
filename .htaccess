@@ -5,3 +5,9 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IFModule>
 
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} funerariapara.com.br [NC,OR]
+RewriteCond %{HTTP_REFERER} funerariabelem.com.br [NC,OR]
+RewriteRule (.*) https://paniago.com.br/$1 [R=301,L]
+</ifModule>
